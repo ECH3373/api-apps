@@ -1,5 +1,3 @@
-import { constrainedMemory } from 'process';
-
 const index = async ({ model, params = {} }) => {
   const data = await model.find(params.query).limit(params.cursor.limit).skip(params.cursor.skip).sort(params.cursor.sort);
   const total = await model.countDocuments(params.query);
