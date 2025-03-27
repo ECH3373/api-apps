@@ -9,7 +9,7 @@ const index = async (req, res) => {
 const show = async (req, res) => {
   const data = await services.crud.show({ model, value: req.params.id });
   if (!data) return services.response.send({ res, data, error: 'the app with the provided ID does not exist' });
-  services.response.send({ res, data, message: 'apps successfully retrieved' });
+  services.response.send({ res, data, message: 'app successfully retrieved' });
 };
 
 export const controller = {
