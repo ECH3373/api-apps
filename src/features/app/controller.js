@@ -1,4 +1,4 @@
-import { model } from './app.model.js';
+import { model } from './model.js';
 import { services } from '../../services/index.js';
 
 const index = async (req, res) => {
