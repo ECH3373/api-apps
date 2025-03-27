@@ -1,4 +1,4 @@
-# api-departments
+# api-app
 
 App management application.
 
@@ -30,7 +30,7 @@ This API is designed to manage apps within an organization. It allows performing
 2. Navega al directorio del proyecto:
 
    ```bash
-   cd api-departments
+   cd api-app
    ```
 
 3. Instala las dependencias:
